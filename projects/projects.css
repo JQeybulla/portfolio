@@ -75,10 +75,10 @@
         display: none;
         width: 80%;
         height: auto;
-        background-color: wheat;
+        background-color: #101024;
         /* position: relative; */
         z-index: 1;
-        top: 5%;
+        top: 10%;
         /* margin-left: 15%; */
         left: 5%;
         
