@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+
+.skills{
+    background-color: #050525;
+    display: flex;
+    font-family: 'Alata', sans-serif;
+    justify-content: center;
+}
+.skills .middle{
+    display: flex;
+    justify-content: space-between;
+    background-color: #050525;
+    width: 70%;
+}
+.skills .backend{
+    margin-left: 30px;
+}
+.skills .front{
+    margin-right: 30px;
+}
+.skills .other{
+    margin-right: 30px;
+}
+.skills .middle .backend .back .h2{
+    border: none;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+.skills .middle .backend .back .li{
+    list-style-type: none;
+    border: 1px solid white;
+    margin: 10px;
+    border-radius: 25px;
+    padding:10px;
+    text-align:center;
+    color: white;
+}
+.skills .middle .front .frontend .h2{
+    border: none;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+
+}
+.skills .middle .front .frontend .li{
+    list-style-type: none;
+    border: 1px solid white;
+    margin: 10px;
+    border-radius: 25px;
+    padding:10px;
+    text-align:center;
+    color: white;
+}
+.skills .middle .other .other_ .h2{
+    border: none;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+.skills .middle .other .other_ .li{
+    list-style-type: none;
+    border: 1px solid white;
+    margin: 10px;
+    border-radius: 25px;
+    padding:10px;
+    text-align:center;
+    color: white;
+}

@@ -1,0 +1,332 @@
+/* Extra small devices (phones, 0px and up) */
+/* @media only screen and (min-width: 0px) {
+    .contact{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contact .mes{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        background-color: aqua;
+    }
+    .contact .mes .contact_forms .input_name{
+        height: 30px;
+        width: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        padding: 0;
+        font-family: 'Alata', sans-serif;
+        font-size: large;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        border: none;
+    }
+    .contact .mes .contact_forms .input_email{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 3px;
+        border: none;
+    }
+    .contact .mes .contact_forms .input_message{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 3px;
+        border: none;
+    }
+    .contact .mes .contact_forms #send{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .contact .mes .h1{
+        text-align: center;
+        /* background-color: antiquewhite; */
+        /* margin-left: auto;
+        margin-right: auto;
+        display: block;
+    } */
+/* } */
+/* @media only screen and (min-width: 350px) {
+    .contact{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contact .mes{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        background-color: aqua;
+    }
+    .contact .mes .contact_forms .input_name{
+        height: 30px;
+        width: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        padding: 0;
+        font-family: 'Alata', sans-serif;
+        font-size: large;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        border: none;
+    }
+    .contact .mes .contact_forms .input_email{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 3px;
+        border: none;
+    }
+    .contact .mes .contact_forms .input_message{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 3px;
+        border: none;
+    }
+    .contact .mes .contact_forms #send{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .contact .mes .h1{
+        text-align: center;
+        /* background-color: antiquewhite; */
+        /* margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+} */ 
+/* @media only screen and (min-width: 400px) { */
+    /* .contact{
+        display: flex;
+        /* flex-direction: column-reverse; */
+    /* } */
+    /* .contact .mes{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        background-color: aqua;
+    } */
+    /* .contact .mes .contact_forms .input_name{
+        height: 30px;
+        width: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        padding: 0;
+        font-family: 'Alata', sans-serif;
+        font-size: large;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        border: none;
+    }
+    .contact .mes .contact_forms .input_email{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 3px;
+        border: none;
+    }
+    .contact .mes .contact_forms .input_message{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 3px;
+        border: none;
+    }
+    .contact .mes .contact_forms #send{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .contact .mes .h1{
+        text-align: center;
+        /* background-color: antiquewhite; */
+        /* margin-left: auto;
+        margin-right: auto;
+        display: block;
+    } 
+/* } */ 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (max-width: 600px) { */
+    /* .contact{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contact .mes{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        background-color: aqua;
+    }
+    .contact .mes .contact_forms .input_name{
+        height: 30px;
+        width: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        padding: 0;
+        font-family: 'Alata', sans-serif;
+        font-size: large;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        border: none;
+    }
+    .contact .mes .contact_forms .input_email{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 3px;
+        border: none;
+    }
+    .contact .mes .contact_forms .input_message{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 3px;
+        border: none;
+    }
+    .contact .mes .contact_forms #send{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .contact .mes .h1{
+        text-align: center;
+        /* background-color: antiquewhite; */
+        /* margin-left: auto;
+        margin-right: auto;
+        display: block; */
+    /* } 
+} */
+
+/* Medium devices (landscape tablets, 820px and up) */
+@media only screen and (max-width: 700px) {
+    .contact{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contact .mes{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        background-color: #080812;
+    }
+    .contact .mes .contact_forms .input_name{
+        height: 30px;
+        width: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        padding: 0;
+        font-family: 'Alata', sans-serif;
+        font-size: large;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        border: none;
+    }
+    .contact .mes .contact_forms .input_email{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 3px;
+        border: none;
+    }
+    .contact .mes .contact_forms .input_message{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 3px;
+        border: none;
+    }
+    .contact .mes .contact_forms #send{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .contact .mes .h1{
+        text-align: center;
+        background-color: #080812;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+}
+@media only screen and (min-width: 820px) {
+    .contact{
+        display: flex;
+        
+    }
+    .contact .mes{
+        background-color: aliceblue;
+        display: block;
+        margin-top: 30px;
+        margin-right: 30px;
+        font-family: 'Alata', sans-serif;
+    }
+    .contact .contact_forms .input_name{
+        height: 30px;
+        width: 200px;
+        margin-right: 0;
+        padding: 0;
+        font-family: 'Alata', sans-serif;
+        font-size: large;
+        
+    }
+    .contact .contact_forms .input_email{
+        height: 30px;
+        width: 200px;
+        margin-left: 0;
+        padding: 0;
+        font-family: 'Alata', sans-serif;
+        font-size: large;
+    }
+    .contact .contact_forms .input_message{
+        margin-top: 10px;
+        height: 100px;
+        width: 408px;
+        text-align: initial;
+        overflow: auto;
+        padding: 0;
+        font-family: 'Alata', sans-serif;
+        font-size: large;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+    
+}
+}

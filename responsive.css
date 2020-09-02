@@ -1,0 +1,160 @@
+/* Extra small devices (phones, 350px and down) */
+@media only screen and (max-width: 350px) {
+    .nb{
+        position: fixed;
+    }
+    .nb .inside{
+        display: none;
+    }
+    .mob-nav-bar{
+        display: none;
+        width: 40%;
+    }
+    .nb h2{
+        color: white;
+        margin-left: 20px;
+    }
+    #h1{
+        display: block;
+    }
+    #h2{
+        display: none;
+    }
+    span{
+        display: none;
+    }
+    .fas{
+        z-index: 2;
+        /* color: white; */
+    }
+    .nb a #fas{
+        color: white;
+    }
+    .nb  h2 a{
+        color: white;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .nb{
+        position: fixed;
+    }
+    .nb .inside{
+        display: none;
+    }
+    .mob-nav-bar{
+        display: none;
+        width: 30%;
+    }
+    .nb h2{
+        margin-left: 40px;
+    }
+    #h2{
+        display: none;
+    }
+    .nb  h2 a{
+        color: white;
+    }
+    .nb a #fas{
+        color: white;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .nb{
+        position: fixed;
+    }
+    .nb .inside{
+        display: none;
+    }
+    .mob-nav-bar{
+        display: none;
+        padding: 5px;
+    }
+    .nb h2{
+        margin-left: 40px;
+    }
+    #h2{
+        display: none;
+    }
+    .nb  h2 a{
+        color: white;
+    }
+    .nb a #fas{
+        color: white;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 820px) {
+    .mob-nav-bar{
+        display: none;
+    }
+    #mobile_nav_button{
+        display: none;       
+    }
+    .nb .inside{
+        display: flex;
+    }
+    #h2{
+        display: none;
+    }
+    .nb .inside p a{
+        color: white;
+    }
+    .nb  h2 a{
+        color: white;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .nb .inside{
+        display: flex;
+    }
+    .mob-nav-bar{
+        display: none;
+        
+    }
+    #mobile_nav_button{
+        display: none;       
+    }
+    #mobile_nav_button .fas{
+        padding: 5px;
+    }
+    
+    #h2{
+        display: none;
+    }
+    .nb .inside p a{
+        color: white;
+    }
+    .nb  h2 a{
+        color: white;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .nb{
+        border: none;
+        position: fixed;
+        overflow: hidden;
+    }
+    .nb .inside{
+        display: flex;
+    }
+    .nb .inside p a{
+        color: white;
+    }
+    .nb  h2 a{
+        color: white;
+    }
+    .mob-nav-bar{
+        display: none;
+    }
+    #h2{
+        display: none;
+    }
+    
+}

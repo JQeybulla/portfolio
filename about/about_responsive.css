@@ -1,0 +1,145 @@
+/* Extra small devices (phones, 350px and down) */
+@media only screen and (max-width: 350px) {
+    .about{
+        /* margin-top: 50px; */
+        background-color: #050525;
+        font-family: 'Alata', sans-serif;
+        border: none;
+        display: block;
+    }
+    .about .name-surname{
+        background-color: #050525;
+        /* width: 50%; */
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 70px;
+        
+    }
+    .about .name-surname h2{
+        font-size: 20px;
+        
+    }
+    .about .name-surname h3{
+        font-size: small;
+        
+    }
+    .about img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+@media only screen and (max-width: 600px) {
+    .about{
+        /* margin-top: 50px; */
+        background-color: #050525;
+        font-family: 'Alata', sans-serif;
+        border: none;
+        display: block;
+    }
+    .about .name-surname{
+        background-color: #050525;
+        widows: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 70px;
+    }
+    .about .name-surname h2{
+        font-size: 20px;
+        
+    }
+    .about .name-surname h3{
+        font-size: small;
+        
+    }
+    .about img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .about{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about .name-surname{
+        background-color: #050525;
+        margin-left: 20px;
+        margin-top: 70px;
+    }
+    .about .name-surname h2{
+        font-size: 30px;
+        
+    }
+    .about .name-surname h3{
+        font-size: 20px;
+        
+    }
+    .about img{
+        /* float: right; */
+        margin-top: 100px;
+        margin-right: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 820px and up) */
+@media only screen and (min-width: 820px) {
+    .about{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about .name-surname{
+        background-color: #050525;
+        margin-left: 60px;
+    }
+    .about .name-surname h2{
+        font-size: 30px;
+        
+    }
+    .about .name-surname h3{
+        font-size: 20px;
+        
+    }
+    .about img{
+        /* float: right; */
+        margin-right: 60px;
+        margin-top: 100px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .about{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about .name-surname{
+        background-color: #050525;
+        margin-left: 100px;
+    }
+    .about .name-surname h2{
+        font-size: 30px;
+        
+    }
+    .about .name-surname h3{
+        font-size: 20px;
+        
+    }
+    .about img{
+        /* float: right; */
+        margin-right: 100px;
+        margin-top: 100px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+    
+}

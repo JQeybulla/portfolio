@@ -1,0 +1,66 @@
+
+
+/* Extra small devices (phones, 350px and down) */
+@media only screen and (max-width: 350px) {
+    .story{
+        width: 70%;
+        margin-left: 15%;
+        font-family: 'Alata', sans-serif;
+        text-align: justify;
+        word-spacing: -5px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .story{
+        width: 70%;
+        margin-left: 15%;
+        font-family: 'Alata', sans-serif;
+        text-align: justify;
+        word-spacing: -5px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .story{
+        width: 70%;
+        margin-left: 15%;
+        font-family: 'Alata', sans-serif;
+        text-align: justify;
+        word-spacing: -5px;
+    }
+}
+
+/* Medium devices (landscape tablets, 820px and up) */
+@media only screen and (min-width: 820px) {
+    .story{
+        width: 50%;
+        margin-left: 25%;
+        font-family: 'Alata', sans-serif;
+        text-align: justify;
+        word-spacing: -5px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .story{
+        width: 70%;
+        margin-left: 15%;
+        font-family: 'Alata', sans-serif;
+        text-align: justify;
+        word-spacing: -5px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .story{
+        width: 70%;
+        margin-left: 15%;
+        font-family: 'Alata', sans-serif;
+        text-align: justify;
+        word-spacing: -5px;
+    }
+    
+}

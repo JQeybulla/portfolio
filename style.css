@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    background-color:#050525 ;
+}
+
+.nb{
+   background-color: #090941;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   z-index: 2;
+}
+.wer{
+    width: 100%;
+}
+
+.nb .inside{
+    /* background-color: blue;  */
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    
+}
+.nb h2{
+    /* color: white; */
+    text-align: left;
+    align-self: center;
+    font-family: 'Alata', sans-serif;
+    margin-left: 80px;
+    cursor: pointer;
+}.nb  h2 a{
+    text-decoration: none;
+    /* color: aliceblue; */
+}
+.nb .inside a{
+    text-decoration: none;
+}
+
+.nb .inside p{
+    /* background-color: azure; */
+    font-family: 'Alata', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 40px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.nb .inside p:hover{
+    /* background-color: azure; */
+    font-family: 'Alata', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 40px;
+    /* font-size: 20px; */
+    cursor: pointer;
+}
+i{
+    /* display: none; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color: rgb(46, 56, 56);
+    background:#090941;
+    border: none;
+    transform: scale(2);
+    z-index: 1;
+}
+
+.me{
+    border-radius: 100px;
+}
+.skills_heading{
+    padding-top: 100px;
+    text-align:center;
+    font-family: 'Alata', sans-serif;
+}
+.skills_heading h2{
+    color: white;
+}
+.projects .project p{
+    color: white;
+}
+.projects .project .links a{
+    color: white;
+}
+
+.contact_title{
+    /* background-color: #050525; */
+}

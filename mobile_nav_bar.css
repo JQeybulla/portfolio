@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+
+.mob-nav-bar{
+    position: fixed;
+    top: 40px;
+    z-index: 1;
+    background-color: #090941;
+    width: 20%;
+    height: 100%;
+    float: right;
+    right: 0;
+    /* display: none; */
+}
+.mob-nav-bar a{
+    text-decoration: none;
+}
+.mob-nav-bar p{
+    font-family: 'Alata', sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    /* color: white; */
+}
+.mob-nav-bar p a{
+    color: white;
+}
+.mob-nav-bar .first_p{
+    margin-top: 60px;
+}
